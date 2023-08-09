@@ -5,3 +5,8 @@
 .budfiles
 npm-debug.log
 yarn-error.log
+
+wordpress/*
+!wordpress/.gitkeep
+
+.idea
