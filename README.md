@@ -1,5 +1,6 @@
 # Helium v2 Docs
 
+- [System requirements](docs/system.md)
 - [Get started](docs/started.md)
 ---
 <p align="center">
