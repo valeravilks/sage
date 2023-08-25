@@ -3,6 +3,10 @@
 @section('content')
   @include('partials.page-header')
 
+  <x-atoms.button.outline>
+    Button custom
+  </x-atoms.button.outline>
+
   @if (! have_posts())
     <x-alert type="warning">
       {!! __('Sorry, no results were found.', 'sage') !!}
