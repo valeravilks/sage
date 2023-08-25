@@ -1,3 +1,7 @@
+# Helium v2 Docs
+
+- [Get started](docs/started.md)
+---
 <p align="center">
   <a href="https://roots.io/sage/">
     <img alt="Sage" src="https://cdn.roots.io/app/uploads/logo-sage.svg" height="100">
