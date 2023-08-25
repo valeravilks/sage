@@ -9,6 +9,10 @@ services:
       volumes:
         - "./:/app/wordpress/wp-content/themes/sage"
         - "/app/wordpress/wp-content/themes/sage/wordpress/"
+tooling:
+  acorn:
+    service: appserver
+    cmd: cd wordpress && wp acorn
 events:
   post-start:
     appserver: |
