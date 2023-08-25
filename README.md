@@ -2,6 +2,7 @@
 
 - [System requirements](docs/system.md)
 - [Get started](docs/started.md)
+- [Work with component](docs/started.md)
 ---
 <p align="center">
   <a href="https://roots.io/sage/">
