@@ -12,7 +12,7 @@ services:
 tooling:
   acorn:
     service: appserver
-    cmd: cd wordpress && wp acorn
+    cmd: wp acorn --path=wordpress
 events:
   post-start:
     appserver: |
