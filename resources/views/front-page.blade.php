@@ -1,9 +1,11 @@
 @php
     wp_head();
 @endphp
-<x-atoms.buttons.button1>
-  Button
-</x-atoms.buttons.button1>
+<x-molecules.cards.card1
+  title="title1"
+  button="button1"
+/>
+<x-molecules.cards.card1/>
 @php
     wp_footer();
 @endphp
