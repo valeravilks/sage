@@ -1,0 +1,9 @@
+@php
+    wp_head();
+@endphp
+<x-atoms.buttons.button1>
+  Button
+</x-atoms.buttons.button1>
+@php
+    wp_footer();
+@endphp

@@ -1,12 +1,26 @@
+import typography from '@tailwindcss/typography';
+
 /** @type {import('tailwindcss').Config} config */
 const config = {
-  content: ['./app/**/*.php', './resources/**/*.{php,vue,js}'],
+  content: ['./index.php', './app/**/*.php', './resources/**/*.{php,vue,js}'],
+// add daisyUI plugin
   theme: {
     extend: {
-      colors: {}, // Extend Tailwind's default colors
+      fontFamily: {
+        sans: 'Open Sans, sans-serif',
+      },
+      colors: {
+        primary: '#0003ff',
+        secondary: '#C90000',
+        white: '#ffffff',
+        black: '#000000',
+        light: '#F6F5F5',
+        dark: '#361515',
+        gray: '#D9D9D9',
+        lightgray: '#BBBBBB',
+      }, // Extend Tailwind's default colors
     },
   },
-  plugins: [],
 };
 
 export default config;
