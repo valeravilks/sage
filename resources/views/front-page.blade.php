@@ -1,11 +1,9 @@
 @php
     wp_head();
 @endphp
-<x-molecules.cards.card1
-  title="title1"
-  button="button1"
-/>
-<x-molecules.cards.card1/>
+@php
+//the_content();
+@endphp
 @php
     wp_footer();
 @endphp
